@@ -1,0 +1,27 @@
+@charset "uf8";
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Rubik+Doodle+Triangles&display=swap');
+        @font-face {
+            font-family:Love ;
+            src: url('fontes/love story ttf.ttf') format('truetype'), url('fontes/love story ttf.ttf')format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+            font-family: 'Love', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h1{ 
+            font-weight: normal;
+            font-size: 70px;
+            font-family:Berkshire swash;
+            color: #C66300;
+        text-align: center;
+           
+            
+            
+        }
+        

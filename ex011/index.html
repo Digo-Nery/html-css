@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias dinâmica </title>
+</head>
+<body>
+    <h1>Imagens dinâmica</h1>
+    <p>tente abri esse sites em varios dispositivos diferentes ou simplemente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media ="(max-width:750px)"srcset="imagens/foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)"srcset="imagens/foto-M.png" type="image/png">
+        <img src="imagens/foto-G.png" alt="imagem flexível">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML</p>
+    <audio preload="metadata"autoplay controls loop >
+    <source src="midias/Ambient.mp3"type='audio/mpeg'>
+     <source src="midiad/Ambient.ogg"type="audio/ogg">
+     <source src="midias/Ambient-wav"type="audio/wav">
+     <p> Infelismente seu navegador não cosegue reproduzir áudio</p>
+     <a href="midias/Ambient.mp3">Clique aqui para baixar o arquivo MP3 </a>       
+</audio>
+</body>
+</html>
